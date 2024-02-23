@@ -21,5 +21,12 @@ You can visit the live demo of the personal website at (https://tancreates.githu
 - Sections for About Me, Links, Profile Picture, Projects, Experience, Relevant Courses, Achievements, Extracurricular Activities, and Contact Me
 - Navigation bar for easy access to different sections
 - Cross-browser compatibility
+## Getting Started
 
+To get started with the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/tancreates/tancreates.github.io/tanishkagaur.github.io.git
 
