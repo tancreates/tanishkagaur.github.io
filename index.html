@@ -1,110 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f3f3f3;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #333;
-            padding: 10px 20px;
-            border-radius: 5px;
-            background-color: #fff;
-            margin: 0 5px;
-        }
-        nav a:hover {
-            background-color: #ccc;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <header>
-        <h1>Tanishka Gaur</h1>
-        <p>Welcome to my personal website</p>
+        <h1>Your Name</h1>
+        <p>Welcome to My Personal Website</p>
     </header>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#courses">Relevant Courses</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#activities">Extracurricular Activities</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#courses">Relevant Courses</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#activities">Extracurricular Activities</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
     </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <img src="/profile_picture.jpg" alt="Your Profile Picture" width="42" height="42" style="vertical-align:middle">
         <p>Hello! I'm Tanishka Gaur, a junior pursuing a degree in Computer Engineering at LDRP Institute of Technology and Research.
-
             I have a deep passion for technology and a strong drive to make a positive impact through innovative solutions. My journey in computer science has been an exciting adventure of learning and growth, and I'm eager to continue pushing the boundaries of what's possible in this ever-evolving field.
-            
             I'm well-versed in a range of programming languages, including C++, Python, Java and I thrive in problem-solving environments. My coursework has equipped me with a solid foundation in data structures, algorithms, optimization techniques and software engineering with my key interest being the field of Data science.
-            
             As I progress in my studies and gain more experience, I'm excited to work in research oriented projects. I'm always open to connecting with fellow students, professionals, and mentors who share my enthusiasm for technology. Feel free to connect with me here on LinkedIn! I'm always eager to connect with like-minded individuals, share insights, and explore potential collaborations.</p>
+    </section>
+
+    <section id="links">
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://github.com/tancreates" target="_blank">GitHub</a></li>
+            <li><a href="www.linkedin.com/in/tanishka-gaur" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/_tanishkag_" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    <section id="profile-picture">
+        <h2>Profile Picture</h2>
+        <img src="/profile_picture.jpg" alt="Your Name">
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <p>Add information about your projects here.</p>
+        <p>Describe your projects and showcase your work here.</p>
     </section>
 
     <section id="experience">
         <h2>Experience</h2>
-        <p>Add information about your work experience here.</p>
+        <p>Detail your relevant work experience here.</p>
     </section>
 
     <section id="courses">
         <h2>Relevant Courses</h2>
-        <p>List relevant courses you've taken.</p>
+        <p>List the courses you've taken that are relevant to your skills and interests.</p>
     </section>
 
     <section id="achievements">
         <h2>Achievements</h2>
-        <p>Highlight your academic and professional achievements.</p>
+        <p>Highlight any academic or professional achievements you're proud of.</p>
     </section>
 
     <section id="activities">
         <h2>Extracurricular Activities</h2>
-        <p>Describe your involvement in extracurricular activities.</p>
+        <p>Mention any extracurricular activities you've been involved in.</p>
     </section>
 
     <section id="contact">
@@ -114,8 +82,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Tanishka Gaur. All rights reserved.</p>
+        &copy; 2024 Tanishka Gaur - Personal Website
     </footer>
 
+    <script src="smooth-scroll.js"></script>
 </body>
+
 </html>
